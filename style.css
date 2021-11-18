@@ -1,0 +1,69 @@
+.h3 {
+    font-size: 23px !important;
+    width: 50%;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    animation-name: h3_change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+.h3:hover {
+
+    background-color: red;
+    color: black;
+}
+
+@keyframes h3_change {
+    from {
+        color: white;
+    }
+
+    to {
+        color: purple;
+    }
+}
+
+.button {
+    width: 25%;
+    font-size: 20px;
+    border-radius: 20px;
+    animation-name: h3_change;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    font-weight: bolder;
+}
+
+.btn-success:hover {
+    background-color: red;
+    color: black;
+}
+
+@keyframes color_change {
+    from {
+        box-shadow: 1px 1px 38px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px blue;
+    }
+
+    from {
+        border-color: blue;
+    }
+
+    to {
+        border-color: red;
+    }
+}
+
+canvas {
+    animation-name: color_change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
+}
